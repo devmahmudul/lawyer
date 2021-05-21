@@ -1,0 +1,357 @@
+*{
+    margin:0 ;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link {
+    
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #2a67b0;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: #2a67b0;
+    }
+
+    .banner{
+        background-image: url(images/banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+    }
+    .banner h1{
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 69px;
+    }
+    .height{
+        align-items: center;
+        height: 90vh;
+    }
+    .icon{
+        
+position: absolute;
+        
+color: #fff;
+        
+font-size: 25px;
+        
+left: 50%;
+        
+top: 76%;
+        
+transform: translateX(-50%);
+animation: updown 1s linear infinite;
+animation-direction: alternate;
+    }
+@keyframes updown{
+    0%{
+        top: 76%;
+
+    }
+    100%{
+        top: 80%;
+    }
+}
+
+.who-we-are{
+    
+
+}
+.p{
+    
+padding-top: 10%;
+    
+padding-bottom: 6%;
+}
+.who-we-are span{
+
+display: inline-block;
+
+background: #f05428;
+
+height: 5px;
+width: 0px;
+transition: .5s all ease-in-out;
+}
+.who-we-are:hover span{
+    width: 50px;
+}
+
+
+.who-we-are h1{
+    
+color:#0111c5;
+    
+text-transform: uppercase;
+    
+font-size: 38px;
+    
+font-weight: 700;
+}
+.who-we-are p{
+
+color: #a09f9f;
+
+padding-top: 25px;
+
+font-size: 15px;
+}
+.what-we-do{
+    background-color: #f7f8f8;
+    background-image: url(images/what_we_do_bg.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 1050px;
+}
+.heading span{
+    padding-bottom: 5;
+    display: inline-block;
+    background: #f05428;
+    height: 5px;
+    width: 0px;
+    margin-bottom: 10px;
+}
+.what_we_do:hover .heading span{
+    width: 50px; 
+}
+.heading h1{
+    
+color: #0111c5;
+    
+text-transform: uppercase;
+    
+font-size: 37px;
+    
+font-weight: 700;
+}
+.image{
+    position: relative;
+}
+.image::after{
+    content: '';
+    position: absolute;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,28377e+100&0+0,1+69,1+93 */
+background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(37,65,134,1) 69%, rgba(39,57,128,1) 93%, rgba(40,55,126,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(37,65,134,1) 69%,rgba(39,57,128,1) 93%,rgba(40,55,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(37,65,134,1) 69%,rgba(39,57,128,1) 93%,rgba(40,55,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
+    height: 0%;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+    opacity: .5;
+    transition: .5s all ease-in-out;
+}
+.image:hover::after{
+    height: 100%;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .5s all ease-in-out;
+}
+.text h1{
+    
+color: #ffff;
+    
+font-size: 30px;
+    
+text-transform: uppercase;
+}
+.image:hover .text{
+    opacity: 1;
+
+}
+.arrow-icon{
+    
+position: absolute;
+    
+left: 45%;
+    
+top: 75%;
+    
+color: #ffff;
+    
+transform: translateX(-50%);
+    
+font-size: 50px;
+    
+opacity: 0;
+    
+transition: .5s all ease-in-out;
+    
+/* font-weight: 500; */
+}
+.image:hover .arrow-icon{
+opacity: 1;
+left: 50%;
+}
+.our-attroney{
+    background-image: url(images/employee_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+
+}
+.our-attroney span{
+    width: 0px;
+    height: 5px;
+    display: block;
+    background-color: #ff5e00;
+    transition: .5s all  ease-in-out;
+}
+.our-attroney h1{
+    
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#FFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.our-attroney p{
+    color: #929dcf;
+
+}
+.our-attroney a{
+    color: #ff5e00;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.our-attroney:hover span{
+    width: 50px;
+    
+}
+.disingnation{
+    
+position: absolute;
+    
+left: 20%;
+    
+top: 80%;
+    
+color: #FFFF;
+    
+text-transform: uppercase;
+    
+transition: .5s all ease-in-out;
+}
+image:hover .disingnation {
+    top: 75%;
+    opacity: 1;
+
+}
+.language:hover .heading span{
+    width: 50px;
+
+}
+.language{
+
+}
+.language h2{
+    font-size: 19px;
+    color:#0111c5;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.language p{
+    color: #a09f9f;
+}
+.language a{
+color: #ff5e00;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: 600;
+}
+.contact{
+    background-color:#0111c5;
+}
+form{
+    
+}
+form input{
+    caret-color: #fff;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid rgb(134, 132, 132) !important;
+}
+form input::placeholder{
+    color: #fff !important;
+}
+form input:focus{
+    box-shadow:none !important ;
+}
+form textarea{
+    caret-color: #fff;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid rgb(134, 132, 132) !important;
+}
+form textarea::placeholder{
+    color: #fff !important;
+}
+form textarea:focus{
+    box-shadow: none !important;
+}
+form input[type="submit"]{
+    border: none !important;
+    border: 1px solid #f05a28 !important;
+    color: #ffff;
+    text-transform: uppercase;
+    padding: 10px 55px;
+    
+    background: #f05a28 !important;
+    transition: .5s all ease-in-out !important;
+}
+form input[type="submit"]:hover{
+    background: transparent !important;
+}
+.contact h1{
+    color: #fff;
+    margin-bottom: 10%;
+}
+.footer{
+    background-color: rgb(2, 2, 26);
+
+}
+.footer p{
+   color: rgb(141, 139, 137);
+}
+.footer-text{
+    
+}
+.footer  ul{
+   
+margin-left: 50% !important;
+   
+list-style-type: none;
+   
+padding-top: 10px;
+}
+.footer  ul li {
+    
+float: left;
+    
+padding-left: 20px;
+    
+/* padding-top: 15px; */
+    
+margin-top: 10px;
+}
+.footer  ul li i{
+    color: rgb(121, 109, 109);
+    font-size: 16px;
+}
